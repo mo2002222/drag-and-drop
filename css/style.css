@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #928cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+}
+
+.inputs {
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  width: 300px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs .data {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 5px;
+}
+.inputs .data #inp {
+  padding: 4px;
+  outline: none;
+  border: 1px solid #928cff;
+}
+.inputs .data #btn {
+  background-color: #928cff;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 3%;
+  align-items: flex-start;
+}
+.list .box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.list .box .item {
+  background-color: #928cff;
+  padding: 10px;
+  margin: 3px;
+  cursor: move;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
